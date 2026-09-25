@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasbeeh Hasan — Young Quantum Researcher &amp; STEM Innovator</title>
+<meta name="description" content="Portfolio of Tasbeeh Hasan: grade 11 STEM student, quantum computing researcher, and science communicator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,18..144,400;0,18..144,500;0,18..144,600;1,18..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Custom cursor orbit dot -->
+<div class="orbit-cursor" aria-hidden="true"></div>
+
+<!-- Progress rail -->
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<!-- NAV -->
+<header class="site-header">
+  <a href="#top" class="brand">T.H<span class="brand-dot">.</span></a>
+  <nav class="dot-nav" id="dotNav" aria-label="Section navigation">
+    <a href="#about" data-label="About"><span class="dot"></span><em>About</em></a>
+    <a href="#journey" data-label="Journey"><span class="dot"></span><em>Journey</em></a>
+    <a href="#skills" data-label="Skills"><span class="dot"></span><em>Skills</em></a>
+    <a href="#achievements" data-label="Achievements"><span class="dot"></span><em>Achievements</em></a>
+    <a href="#certificates" data-label="Certificates"><span class="dot"></span><em>Certificates</em></a>
+    <a href="#experience" data-label="Experience"><span class="dot"></span><em>Experience</em></a>
+    <a href="#contact" data-label="Contact"><span class="dot"></span><em>Contact</em></a>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a>
+  <a href="#journey">Journey</a>
+  <a href="#skills">Skills</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-field" id="heroField" aria-hidden="true"></div>
+    <div class="hero-inner hero-inner-wide">
+      <p class="eyebrow mono">Qaliobia, Egypt — Grade 11, age 16</p>
+      <h1 class="hero-title">
+        Tasbeeh Hasan
+      </h1>
+      <p class="hero-tagline">
+        Between homework and hackathons, I build things that spin, sense, and compute —
+        vertical wind turbines, quantum circuits, spherical drones, and the occasional
+        exoplanet light curve. I coded this site myself, too.
+      </p>
+      <div class="hero-actions">
+        <a href="#achievements" class="btn btn-primary">See the record</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-stats mono">
+        <div><span class="stat-num" data-count="35">0</span><span class="stat-label">honors &amp; selections</span></div>
+        <div><span class="stat-num" data-count="6">0</span><span class="stat-label">countries of collaborators</span></div>
+        <div><span class="stat-num" data-count="3">0</span><span class="stat-label">languages spoken</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue mono" aria-label="Scroll to content">scroll<span>↓</span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="eyebrow mono">01 — About</span>
+      <h2>A researcher's path, taken early</h2>
+    </div>
+    <div class="about-grid about-grid-wide">
+      <div class="about-copy reveal">
+        <p class="lede">
+          I'm a 16-year-old grade 11 student who's genuinely into STEM — especially AI, ML,
+          mathematics, and quantum mechanics. My path into quantum started sideways: a
+          curiosity about the philosophy and theory of mathematics pulled me deeper and
+          deeper until quantum mechanics sparked something I haven't stopped chasing since.
+        </p>
+        <p>
+          Right now I'm reading Nielsen &amp; Chuang's <em>Quantum Computation and Quantum
+          Information</em> alongside Stewart's <em>PreCalculus</em> — not because either is
+          easy, but because the surest way I know to grow is to sit with material that's
+          slightly out of reach. People around me have said these books are advanced for my
+          age. I think that's kind of the point.
+        </p>
+        <div class="languages">
+          <div class="lang-chip"><strong>Arabic</strong><span>Native</span></div>
+          <div class="lang-chip"><strong>English</strong><span>Advanced Working Proficiency</span></div>
+          <div class="lang-chip"><strong>German</strong><span>Elementary Proficiency</span></div>
+        </div>
+      </div>
+      <div class="about-card reveal">
+        <p class="mono eyebrow">Education</p>
+        <h3>Grade 11, from Kindergarten to Grade 9</h3>
+        <p>Mostafa Kamel Official Language Distinct School, Egypt</p>
+        <p style="margin-top:0.6rem; color: var(--gold-300); font-size:0.9rem;">Scored 98.4/100 in Grade 9 — full marks in 4 of 5 subjects</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY / ORBIT TIMELINE -->
+  <section class="section section-alt" id="journey">
+    <div class="section-head">
+      <span class="eyebrow mono">02 — Journey</span>
+      <h2>The orbit so far</h2>
+      <p class="section-sub">Twelve waypoints, 2022 to 2026 — from a seventh-grade NASA award to an international Bronze Honor in astrophysics.</p>
+    </div>
+    <div class="orbit-wrap">
+      <svg class="orbit-line" viewBox="0 0 100 900" preserveAspectRatio="none" aria-hidden="true">
+        <path id="orbitPath" d="M50,10 C90,60 10,120 50,180 C90,240 10,300 50,360 C90,420 10,480 50,540 C90,600 10,660 50,720 C90,780 10,840 50,890"
+          fill="none" stroke="currentColor" stroke-width="0.6" stroke-dasharray="1 4"/>
+      </svg>
+      <ol class="timeline" id="timelineList"></ol>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="eyebrow mono">03 — Skills</span>
+      <h2>What I build with</h2>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+    <div class="soft-skills">
+      <p class="mono eyebrow">Working style</p>
+      <div class="chip-row" id="softSkills"></div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section section-alt" id="achievements">
+    <div class="section-head">
+      <span class="eyebrow mono">04 — Achievements</span>
+      <h2>The constellation wall</h2>
+      <p class="section-sub">Thirty-five honors, programs, and research placements. Filter by field, or search by keyword.</p>
+    </div>
+    <div class="filter-bar">
+      <div class="filters" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All <span id="countAll"></span></button>
+        <button class="filter-btn" data-filter="quantum">Tech &amp; Quantum</button>
+        <button class="filter-btn" data-filter="engineering">Engineering &amp; Innovation</button>
+        <button class="filter-btn" data-filter="academic">Academic Distinction</button>
+        <button class="filter-btn" data-filter="research">Research &amp; Science</button>
+        <button class="filter-btn" data-filter="leadership">Leadership &amp; Outreach</button>
+      </div>
+      <input type="search" id="achievementSearch" class="search-input mono" placeholder="Search achievements…" aria-label="Search achievements">
+    </div>
+    <div class="achievement-grid" id="achievementGrid"></div>
+    <p class="no-results mono" id="noResults" hidden>No matches — try another word.</p>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section section-alt" id="certificates">
+    <div class="section-head">
+      <span class="eyebrow mono">05 — Certificates</span>
+      <h2>The paper trail</h2>
+      <p class="section-sub">Twenty-six real certificates, letters, and acceptance emails behind the achievements above.</p>
+    </div>
+    <div class="cert-grid" id="certGrid"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="eyebrow mono">06 — Experience</span>
+      <h2>Hands-on work</h2>
+      <p class="section-sub">Leading teams, teaching younger students, and building this site — where the STEM shows up outside of competitions.</p>
+    </div>
+    <div class="experience-list" id="experienceList"></div>
+  </section>
+
+  <!-- AFFILIATIONS -->
+  <section class="section section-alt" id="affiliations">
+    <div class="section-head">
+      <span class="eyebrow mono">07 — Affiliations</span>
+      <h2>Standing memberships</h2>
+    </div>
+    <ul class="affiliations-list" id="affiliationsList"></ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="section-head">
+      <span class="eyebrow mono">08 — Contact</span>
+      <h2>Let's talk</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <p class="mono eyebrow">Email</p>
+        <button class="copy-line" data-copy="tasbeeh5757@gmail.com">
+          tasbeeh5757@gmail.com <span class="copy-tag mono">copy</span>
+        </button>
+      </div>
+      <div class="contact-card reveal">
+        <p class="mono eyebrow">Phone</p>
+        <button class="copy-line" data-copy="+201552643752">
+          +20 155 264 3752 <span class="copy-tag mono">copy</span>
+        </button>
+      </div>
+      <div class="contact-card reveal">
+        <p class="mono eyebrow">Location</p>
+        <p>Qaliobia, Egypt</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Tasbeeh Hasan — built for submission, made to be walked through.</p>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑ Top</button>
+</footer>
+
+<div class="toast mono" id="toast">Copied</div>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
